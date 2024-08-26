@@ -5,6 +5,7 @@ const SearchBar = ({ searchInput }) => {
 
   const handleSearch = () => {
     searchInput(inputValue.current.value);
+    inputValue.current.value="";
   };
 
   return (
