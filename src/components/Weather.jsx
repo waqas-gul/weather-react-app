@@ -42,6 +42,7 @@ const Weather = () => {
       const data = await response.json();
 
       if (data.cod === 200) {
+         setFlag(true);
         // Check if the response is successful
         const icon = allIcons[data.weather[0].icon] || "images/clear.png";
 
