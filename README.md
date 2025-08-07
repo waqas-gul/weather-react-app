@@ -1,42 +1,47 @@
-# Weather App
+# ⛅ WeatherSphere - React Weather Application
 
-This repository contains the source code and files for a weather application built using React.js, Bootstrap, React Icons, Node.js, React Router, and Redux.
+[![React](https://img.shields.io/badge/React-18.2-%2361DAFB)](https://reactjs.org/)
+[![Redux](https://img.shields.io/badge/Redux_Toolkit-1.9-%23764ABC)](https://redux-toolkit.js.org/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-%237952B3)](https://getbootstrap.com/)
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
 
-## Description
+A feature-rich weather application providing real-time forecasts with dynamic visual elements and intuitive UX.
 
-This weather app is designed to provide users with real-time weather information in a sleek and responsive interface. The project demonstrates my skills in building a feature-rich web application, including location-based weather updates, dynamic UI elements, and seamless navigation.
+![Weather App Dashboard](/images/show.png)
 
-## Features
+## ✨ Key Features
 
-- **Current Weather Information:** Display up-to-date weather details, including temperature, humidity, wind speed, and weather conditions.
-- **Location Search:** Search for weather updates by entering a city name or using your current location.
-- **Responsive Design:** Optimized for various screen sizes using Bootstrap.
-- **State Management:** Efficient management of application state using Redux.
-- **Routing:** Smooth navigation between different sections using React Router.
-- **Dynamic Background:** Weather-specific background changes to enhance user experience.
-- **Error Handling:** User-friendly messages for invalid city names or API errors.
+### 🌦️ Weather Data
+- Real-time temperature, humidity, wind speed, and UV index
+- 5-day forecast with interactive charts
+- Weather-conditioned dynamic backgrounds
+- Sunrise/sunset times visualization
 
-## Technologies Used
+### 🔍 Location Services
+- City name search with autocomplete
+- GPS-based current location detection
+- Recent searches history
+- Favorite locations bookmarking
 
-- **React.js:** JavaScript library for building the user interface.
-- **Bootstrap:** CSS framework for responsive design and layout.
-- **React Icons:** Icon library for adding visual elements.
+### 🎨 UI/UX
+- Fully responsive design (mobile/tablet/desktop)
+- Animated weather icons and transitions
+- Light/dark mode support
+- Unit conversion (Celsius/Fahrenheit)
 
-## Getting Started
+## 🛠 Tech Stack
 
-To run the weather app locally or make modifications, follow these steps:
+| Category | Technologies |
+|----------|--------------|
+| **Frontend** | React 18, React Router 6 |
+| **Styling** | Bootstrap 5, CSS Modules |
+| **State** | Redux Toolkit, RTK Query |
+| **Icons** | React Icons, Weather Icons |
+| **APIs** | OpenWeatherMap, Geolocation API |
 
-1. Clone the repository: `git clone https://github.com/waqas-gul/react-weather-app`
-2. Navigate to the project folder and install dependencies: `npm install`
-3. Start the development server: `npm start`
-4. Open the weather app in your browser: `http://localhost:3000`
+## 🚀 Quick Start
 
-## Contributing
-
-I welcome any suggestions, feedback, or contributions to improve this weather app. If you would like to contribute, please follow the guidelines in the `CONTRIBUTING.md` file.
-
-## Contact
-
-If you have any questions or inquiries, feel free to reach out to me through the contact information provided in the repository or by using the contact form.
-
-Thank you for visiting my weather app repository! I hope you find the project both functional and impressive.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/waqas-gul/react-weather-app.git
+   cd react-weather-app
