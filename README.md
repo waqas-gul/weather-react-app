@@ -7,7 +7,7 @@
 
 A feature-rich weather application providing real-time forecasts with dynamic visual elements and intuitive UX.
 
-![Weather App Dashboard](/images/show.png)
+![Weather App Dashboard](/show.png)
 
 ## ✨ Key Features
 
